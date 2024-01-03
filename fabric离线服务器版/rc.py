@@ -30,9 +30,9 @@ def main():
             username=result[1]
             white=result[2]
             if username not in added and white==1:
-                res=rcclient.run("whitelist add "+username)
+                res=rcclient.run("easywhitelist add "+username)
                 print(res)
-                print(f"add {username} to whitelist")
+                print(f"add {username} to easywhitelist")
                 added.append(username)
             result = cursor.fetchone()
         print("sleep")
