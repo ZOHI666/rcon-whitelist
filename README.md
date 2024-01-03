@@ -7,3 +7,5 @@
 可以查看此教程进行配置https://www.zhihu.com/question/381405552
 
 2，配置MySQL数据库，结构如下
+
+![结构](https://img.jiahewufwq.space/images/2024/01/02/-2024-01-02-215059.png)
